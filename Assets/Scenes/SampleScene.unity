@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 195533540}
   - component: {fileID: 195533547}
   - component: {fileID: 195533546}
+  - component: {fileID: 195533548}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: Untagged
@@ -451,6 +452,21 @@ MonoBehaviour:
   - componentID: 1
     component: {fileID: 195533546}
   _childViews: []
+--- !u!114 &195533548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195533538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0f04f46b224e546a3aacc884df8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realtimeView: {fileID: 195533547}
+  realtimeTransform: {fileID: 195533546}
+  xRGrabInteractable: {fileID: 195533541}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1120,7 @@ GameObject:
   - component: {fileID: 878172918}
   - component: {fileID: 878172925}
   - component: {fileID: 878172924}
+  - component: {fileID: 878172926}
   m_Layer: 0
   m_Name: Cube1 (1)
   m_TagString: Untagged
@@ -1410,6 +1427,21 @@ MonoBehaviour:
   - componentID: 1
     component: {fileID: 878172924}
   _childViews: []
+--- !u!114 &878172926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878172916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0f04f46b224e546a3aacc884df8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realtimeView: {fileID: 878172925}
+  realtimeTransform: {fileID: 878172924}
+  xRGrabInteractable: {fileID: 878172919}
 --- !u!1001 &879493113
 PrefabInstance:
   m_ObjectHideFlags: 0
