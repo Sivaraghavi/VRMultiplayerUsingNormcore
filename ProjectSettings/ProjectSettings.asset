@@ -143,7 +143,7 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: 11400000, guid: 4fc0c1bc126281f40a80064005fbd3a4, type: 2}
-  - {fileID: 11400000, guid: 86cd5aae6c549e64a83853472bc7eeea, type: 2}
+  - {fileID: 0}
   - {fileID: 8185012500866085941, guid: ea854f55e270a5d45b70e0d17ab6f6ee, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -518,6 +518,13 @@ PlayerSettings:
       m_Width: 1920
       m_Height: 720
       m_Kind: 1
+      m_SubKind: 
+  - m_BuildTarget: VisionOS
+    m_Icons:
+    - m_Textures: []
+      m_Width: 1024
+      m_Height: 1024
+      m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
