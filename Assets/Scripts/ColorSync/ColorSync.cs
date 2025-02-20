@@ -112,4 +112,10 @@ public class ColorSync : RealtimeComponent<ColorSyncModel>
     {
         UpdateMeshRendererColor();
     }
+
+    public void SetColor(Color newColor)
+    {
+        color = newColor;
+    }
+
 }

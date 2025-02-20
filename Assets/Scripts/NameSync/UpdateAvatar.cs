@@ -4,6 +4,9 @@ using UnityEngine;
 using Normal.Realtime;
 using System;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.UIElements;
+using System.Diagnostics;
 
 namespace Name
 {
@@ -32,9 +35,21 @@ public class UpdateAvatar : MonoBehaviour
             }
         }
 
-        public void SaveLocalPlayerName(Text nameField) { 
-            avatarName = nameField.text;
-            realtimeAvatar.GetComponentInChildren<NameSync>().SetText(avatarName);
+        public void SaveLocalPlayerName(TextMeshProUGUI nameField)
+        {
+            if (nameField != null)
+            {
+                avatarName = nameField.text;
+                realtimeAvatar.GetComponentInChildren<NameSync>().SetText(avatarName);
+                UnityEngine.Debug.Log("Success avatarName: " + avatarName);
+            }
+            else
+            {
+                UnityEngine.Debug.LogWarning("avatarName is not assigned!");
+            }
         }
+
+
+
     }
 }
