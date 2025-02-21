@@ -6,19 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene Template/Scene0.unity
-    guid: a1279ae9f9d31cc4e9d74c0cf07bdc17
-  - enabled: 1
-    path: Assets/Scenes/Scene Template/Normal Async.unity
-    guid: f183606a294550846a581e8045723023
-  - enabled: 1
-    path: Assets/Scenes/Scene Template/Additive.unity
-    guid: 6b4f99d101dd95847aeaa2225f2de41a
-  - enabled: 1
-    path: Assets/Scenes/Flow/Scene0-InputNameScene.unity
-    guid: 3e877585a3115624f85086271e6a2007
+    path: Assets/Scenes/AR Spectator/Realtime + VR Player (AR Spectator).unity
+    guid: a0ef693c62217dc4fa5e54ea0056b7d2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4fc0c1bc126281f40a80064005fbd3a4,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fca84a826e6a36c4e8593c820a5f51d7,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b5e14d1e24fecd94cb3d98b446b5d675,
       type: 2}
